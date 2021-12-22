@@ -30,8 +30,19 @@ public class Triangle_Test {
      Triangle_new triangle_new = new Triangle_new(zahl);   
      // draw the triangle
      triangle_new.display_triangle();
+     System.out.println("");
      System.out.println("Anzahl der Sterne: "+ triangle_new.get_stars());
      System.out.println("Anzahl der Punkte: "+ triangle_new.get_dots());
-
+     System.out.println("");
+     triangle_new.display_tree();
+     System.out.println("");
+     //set a length 11
+     triangle_new.set_length(11);
+     triangle_new.display_triangle();
+     System.out.println("");
+     System.out.println("Anzahl der Sterne: "+ triangle_new.get_stars());
+     System.out.println("Anzahl der Punkte: "+ triangle_new.get_dots());
+     System.out.println("");
+     triangle_new.display_tree();
     }
 }
